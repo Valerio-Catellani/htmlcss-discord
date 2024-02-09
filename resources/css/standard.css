@@ -1,0 +1,227 @@
+/*********************** RESET **********************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*********************** COLOR & BACKGROUND **********************/
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #0000ff;
+  --green: #008000;
+  --red: #ff0000;
+  --yellow: #ffff00;
+  --purple: #800080;
+  --orange: #ffa500;
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.green {
+  color: var(--green);
+}
+
+.red {
+  color: var(--red);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.background-white {
+  background-color: var(--white);
+}
+
+.background-black {
+  background-color: var(--black);
+}
+
+.background-blue {
+  background-color: var(--blue);
+}
+
+.background-green {
+  background-color: var(--green);
+}
+
+.background-red {
+  background-color: var(--red);
+}
+
+.background-yellow {
+  background-color: var(--yellow);
+}
+
+.background-purple {
+  background-color: var(--purple);
+}
+
+.background-orange {
+  background-color: var(--orange);
+}
+
+
+/******************** MARGIN AND PADDING ************************/
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+/*********************** UL **********************/
+
+.no-list-style {
+  list-style: none;
+}
+
+
+/*********************** TEXT **********************/
+
+/** Font-Size **/
+
+.font-size-25 {
+  font-size: 0.25rem;
+}
+
+.font-size-50 {
+  font-size: 0.5rem;
+}
+
+.font-size-75 {
+  font-size: 0.75rem;
+}
+
+.font-size-100 {
+  font-size: 1rem;
+}
+
+.font-size-125 {
+  font-size: 1.25rem;
+}
+
+.font-size-150 {
+  font-size: 1.5rem;
+}
+
+.font-size-175 {
+  font-size: 1.75rem;
+}
+
+.font-size-200 {
+  font-size: 2rem;
+}
+
+
+/*********************** DISPLAY **********************/
+
+.display-inline-block {
+  display: inline-block;
+}
+
+
+/*********************** DISPLAY: FLEX **********************/
+
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+
+/**/
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+/**/
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
