@@ -111,6 +111,16 @@
   margin: 20px;
 }
 
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-800 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /*********************** UL **********************/
 
 .no-list-style {
