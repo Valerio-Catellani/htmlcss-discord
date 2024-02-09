@@ -1,6 +1,5 @@
 * {
   font-family: 'Noto Sans', sans-serif;
-  ;
 }
 
 
@@ -61,6 +60,7 @@
   border-radius: 25px;
   padding: 10px 20px;
   font-weight: 500;
+  box-shadow: var(--color-primary-color) 0 0 2px;
 }
 
 .button:hover {
@@ -103,6 +103,10 @@ li a:hover {
   padding-top: 4%;
 }
 
+main section {
+  padding: 80px 0;
+}
+
 section img {
   width: 60%;
 }
@@ -110,6 +114,14 @@ section img {
 main section h2 {
   margin-bottom: 30px;
 }
+
+.call-to-action {
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*********** SVG WAVE ***********/
 
 .margin-negative-10 {
   margin: -10px 0;
@@ -119,20 +131,14 @@ main section h2 {
   fill: var(--color-background-grey);
 }
 
-.call-to-action {
-  background-image: url(../img/stars.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.call-to-action .button {
-  box-shadow: #23272a 0 0 2px;
-}
-
 /************************* FOOTER *****************************************************/
 
+
+footer {
+  padding: 80px 0;
+}
+
 .footer-top {
-  padding-top: 80px;
   padding-bottom: 40px;
   border-bottom: var(--color-contrast) 2px solid;
 }
@@ -155,7 +161,6 @@ footer li a:hover {
   width: 20%;
 }
 
-
 #contacts img {
   width: 20%;
   margin-right: 10px;
@@ -165,4 +170,8 @@ footer li a:hover {
 .lenguage {
   max-width: 70%;
   margin-top: 20px;
+}
+
+.footer-bottom {
+  padding: 30px 0;
 }
