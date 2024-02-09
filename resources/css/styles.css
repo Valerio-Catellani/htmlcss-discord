@@ -11,7 +11,7 @@
   --color-contrast: #aebbe7;
   --color-primary-color: #23272a;
   --color-background-color: #255ee9;
-  --color-background-grey: rgb(194, 190, 190);
+  --color-background-grey: #F6F6F6;
 }
 
 .color-primary {
@@ -111,8 +111,20 @@ section h2 {
   margin-bottom: 30px;
 }
 
-.wave {
-  height: 15vh;
-  background-image: url(../img/wave.svg);
-  fill: red
+.margin-negative-10 {
+  margin: -10px 0;
+}
+
+.fill-grey {
+  fill: var(--color-background-grey);
+}
+
+.call-to-action {
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.call-to-action .button {
+  box-shadow: #23272a 0 0 2px;
 }

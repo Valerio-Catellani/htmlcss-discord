@@ -124,7 +124,6 @@
 }
 
 
-
 .margin-5 {
   margin: 5px;
 }
@@ -187,8 +186,15 @@
 }
 
 
+/*********************** IMG **********************/
 
+.flip-orizzontally {
+  transform: scaleX(-1);
+}
 
+.flip-vertically {
+  transform: scaleY(-1);
+}
 
 
 /*********************** TEXT **********************/
@@ -274,7 +280,6 @@
 .font-size-em-300 {
   font-size: 3em;
 }
-
 
 
 /**/
