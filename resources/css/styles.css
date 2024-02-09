@@ -1,0 +1,49 @@
+/*********************** COLOR & BACKGROUND **********************/
+
+:root {
+  --color-secondary-color: #ffffff;
+  --color-contrast: #aebbe7;
+  --color-primary-color: #23272a;
+  --color-background-color: #255ee9;
+  --color-background-grey: #f6f6f6;
+}
+
+.color-primary {
+  color: var(--color-primary-color);
+}
+
+.color-secondary {
+  color: var(--color-secondary-color);
+}
+
+.color-contrast {
+  color: var(--color-contrast);
+}
+
+.color-blue {
+  color: var(--color-background-color);
+}
+
+.color-grey {
+  color: var(--color-background-grey);
+}
+
+.background-color-primary {
+  background-color: var(--color-primary-color);
+}
+
+.background-color-secondary {
+  background-color: var(--color-secondary-color);
+}
+
+.background-color-contrast {
+  background-color: var(--color-contrast);
+}
+
+.background-color-blue {
+  background-color: var(--color-background-color);
+}
+
+.background-color-grey {
+  background-color: var(--color-background-grey);
+}
