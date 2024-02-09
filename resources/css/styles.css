@@ -91,7 +91,7 @@ nav li a {
   color: var(--color-secondary-color);
 }
 
-nav li a:hover {
+li a:hover {
   text-shadow: var(--color-primary-color) 1px 0 10px;
 }
 
@@ -107,7 +107,7 @@ section img {
   width: 60%;
 }
 
-section h2 {
+main section h2 {
   margin-bottom: 30px;
 }
 
@@ -127,4 +127,42 @@ section h2 {
 
 .call-to-action .button {
   box-shadow: #23272a 0 0 2px;
+}
+
+/************************* FOOTER *****************************************************/
+
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-bottom: var(--color-contrast) 2px solid;
+}
+
+footer li {
+  padding: 10px;
+  font-weight: 700;
+}
+
+footer li a {
+  text-decoration: none;
+  color: var(--color-secondary-color);
+}
+
+footer li a:hover {
+  color: var(--color-contrast);
+}
+
+#contacts {
+  width: 20%;
+}
+
+
+#contacts img {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.contact-icons,
+.lenguage {
+  max-width: 70%;
+  margin-top: 20px;
 }
