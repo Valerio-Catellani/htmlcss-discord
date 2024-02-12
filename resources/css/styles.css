@@ -70,7 +70,7 @@ footer {
 }
 
 .button:hover {
-  box-shadow: var(--color-primary-color) 1px 0 10px;
+  box-shadow: 1px 0 10px var(--color-primary-color);
   transition: 1s;
 }
 

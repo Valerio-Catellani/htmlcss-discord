@@ -303,6 +303,11 @@
   color: #000000;
 }
 
+.btn:hover {
+  box-shadow: 1px 0 10px black;
+  transition: 1s;
+}
+
 
 /*********************** DISPLAY: FLEX **********************/
 
