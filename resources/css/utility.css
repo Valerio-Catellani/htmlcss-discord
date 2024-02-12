@@ -174,10 +174,12 @@
 
 .container-1200 {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container-800 {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .width-100x100 {
@@ -312,6 +314,12 @@
   display: inline-block;
 }
 
+
+
+
+/*********************** BUTTON **********************/
+
+
 .btn {
   display: inline-block;
   padding: 10px 18px;
@@ -320,7 +328,17 @@
   color: #000000;
 }
 
-.btn:hover {
+.btn-big {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 40px;
+  background-color: #ff0000;
+  color: #000000;
+}
+
+
+.btn:hover,
+.btn-big:hover {
   box-shadow: 1px 0 10px black;
   transition: 1s;
 }
