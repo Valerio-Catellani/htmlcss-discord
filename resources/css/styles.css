@@ -79,7 +79,11 @@ footer {
 header {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  min-height: 500px;
+  min-height: 1000px;
+}
+
+.hero {
+  margin: auto;
 }
 
 nav {
@@ -129,9 +133,6 @@ main section h2 {
   background-repeat: no-repeat;
 }
 
-.w {
-  width: 100%;
-}
 
 /*********** SVG WAVE ***********/
 
