@@ -2,6 +2,12 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+nav,
+footer {
+  padding: 0 10px;
+}
+
+
 
 /*********************** COLOR & BACKGROUND **********************/
 
@@ -64,8 +70,8 @@
 }
 
 .button:hover {
-  text-shadow: var(--color-primary-color) 1px 0 10px;
-  color: var(--color-background-color);
+  box-shadow: var(--color-primary-color) 1px 0 10px;
+  transition: 1s;
 }
 
 /*******************************      HEADER   ******************************/
@@ -77,7 +83,7 @@ header {
 }
 
 nav {
-  padding: 30px 0;
+  padding: 30px 10px;
   height: 20%;
 }
 
@@ -92,11 +98,12 @@ nav li a {
 }
 
 li a:hover {
-  text-shadow: var(--color-primary-color) 1px 0 10px;
+  text-decoration: underline;
 }
 
 
 /************************* MAIN *****************************************************/
+
 
 .section-description {
   width: 40%;
@@ -104,10 +111,10 @@ li a:hover {
 }
 
 main section {
-  padding: 80px 0;
+  padding: 80px 10px;
 }
 
-section img {
+section .small-img {
   width: 60%;
 }
 
@@ -117,8 +124,13 @@ main section h2 {
 
 .call-to-action {
   background-image: url(../img/stars.svg);
+  background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.w {
+  width: 100%;
 }
 
 /*********** SVG WAVE ***********/
@@ -135,7 +147,7 @@ main section h2 {
 
 
 footer {
-  padding: 80px 0;
+  padding: 80px 10px;
 }
 
 .footer-top {
@@ -151,10 +163,6 @@ footer li {
 footer li a {
   text-decoration: none;
   color: var(--color-secondary-color);
-}
-
-footer li a:hover {
-  color: var(--color-contrast);
 }
 
 #contacts {
