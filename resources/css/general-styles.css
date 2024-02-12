@@ -71,19 +71,15 @@ footer {
 
 .button:hover {
   box-shadow: 1px 0 10px var(--color-primary-color);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 /*******************************      HEADER   ******************************/
 
-header {
-  background-image: url(../img/jumbo.png);
-  background-size: cover;
-  min-height: 800px;
-}
 
 .hero {
-  margin: auto;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 nav {
@@ -159,6 +155,10 @@ footer {
 footer li {
   padding: 10px;
   font-weight: 700;
+}
+
+#contacts li {
+  padding: 10px 20px 10px 0;
 }
 
 footer li a {

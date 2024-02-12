@@ -95,6 +95,10 @@
   padding: 10px;
 }
 
+.padding-side-10 {
+  padding: 0 10px;
+}
+
 .padding-20 {
   padding: 20px;
 }
@@ -160,24 +164,29 @@
   margin: 80px;
 }
 
+.margin-auto {
+  margin: auto;
+}
+
 
 
 /*********************** CONTAINER  **********************/
 
 .container-1200 {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 .container-800 {
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .width-100x100 {
   width: 100%;
 }
 
+.min-height-600 {
+  min-height: 600px;
+}
 
 /*********************** UL **********************/
 
@@ -279,6 +288,14 @@
 
 .font-size-em-300 {
   font-size: 3em;
+}
+
+.font-size-em-400 {
+  font-size: 4em;
+}
+
+.font-size-em-500 {
+  font-size: 5em;
 }
 
 

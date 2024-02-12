@@ -14,7 +14,7 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Link a Font Awesome-->
   <link rel="stylesheet" href="resources/css/utility.css">
-  <link rel="stylesheet" href="resources/css/styles.css">
+  <link rel="stylesheet" href="resources/css/general-styles.css">
   <title>Discord</title>
 </head>
 
@@ -23,30 +23,34 @@
 
   <header class=" background-color-blue color-secondary display-flex flex-direction-column">
 
-    <nav class="container-1200 display-flex flex-wrap justify-content-space-between align-items-center width-100x100">
+    <nav
+      class="container-1200 display-flex flex-wrap justify-content-space-between align-items-center width-100x100 margin-auto">
       <img src="resources/img/logo.svg" alt="discord logo">
       <ul class="display-flex flex-wrap no-list-style">
-        <li><a href="www.google.com">Scarica</a></li>
-        <li><a href="www.google.com">Perchè Discord</a></li>
-        <li><a href="www.google.com">Nitro</a></li>
-        <li><a href="www.google.com">Sicurezza</a></li>
-        <li><a href="www.google.com">Assistenza</a></li>
+        <li class="padding-side-10"><a href="download.html">Scarica</a></li>
+        <li class="padding-side-10"><a href="www.google.com">Perchè Discord</a></li>
+        <li class="padding-side-10"><a href="www.google.com">Nitro</a></li>
+        <li class="padding-side-10"><a href="www.google.com">Sicurezza</a></li>
+        <li class="padding-side-10"><a href="www.google.com">Assistenza</a></li>
       </ul>
       <a class="button background-color-secondary color-primary" href="www.google.com">Accedi</a>
     </nav>
 
-    <div class="hero container-800 display-flex align-items-center">
-      <section id="introduction" class="text-align-center">
+    <div class="hero display-flex min-height-600 ">
+      <section id="introduction"
+        class="text-align-center display-flex flex-direction-column align-items-center container-800 margin-auto">
         <h2 class="font-size-em-300 margin-20">Il tuo posto per parlare</h2>
         <p class="font-size-em-125 margin-20">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
           artistica mondiale, o semplicemente di
           un piccolo gruppo di amici che vuole passare un po' di tempo assieme, Discord rende più facile chiacchierare
           ogni giorno e ritrovarsi più spesso.</p>
-        <a class="button display-inline-block margin-10 background-color-secondary color-primary font-size-em-125"
-          href="www.google.com"><i class="fa-solid fa-down-long"></i>
-          Download per Mac</a>
-        <a class="button display-inline-block margin-10 background-color-primary color-secondary font-size-em-125"
-          href="www.google.com">Apri Discord nel tuo browser</a>
+        <div class="hero-buttons display-flex flex-wrap justify-content-center">
+          <a class="button display-inline-block margin-10 background-color-secondary color-primary font-size-em-125"
+            href="www.google.com"><i class="fa-solid fa-down-long"></i>
+            Download per Mac</a>
+          <a class="button display-inline-block margin-10 background-color-primary color-secondary font-size-em-125"
+            href="www.google.com">Apri Discord nel tuo browser</a>
+        </div>
       </section>
     </div>
 
@@ -57,7 +61,7 @@
   <main>
 
     <section id="organization">
-      <div class="container-1200 display-flex">
+      <div class="container-1200 display-flex margin-auto">
         <img class="small-img" src="resources/img/item1.svg" alt="item1">
         <div class="section-description">
           <h2 class="font-size-em-300">Un luogo a invito con tutto lo spazio necessario per parlare</h2>
@@ -78,7 +82,7 @@
 
 
     <section id="where" class=" background-color-grey ">
-      <div class=" container-1200 display-flex flex-direction-row-reverse">
+      <div class=" container-1200 display-flex flex-direction-row-reverse margin-auto">
 
         <img class="small-img" src="resources/img/item2.svg" alt="item2">
         <div class="section-description">
@@ -97,7 +101,7 @@
     </svg>
 
     <section id="community">
-      <div class="container-1200 display-flex">
+      <div class="container-1200 display-flex margin-auto">
         <img class="small-img" src="resources/img/item3.svg" alt="item3">
         <div class="section-description">
           <h2 class="font-size-em-300">Da pochi ad un fandom</h2>
@@ -116,7 +120,7 @@
     </svg>
 
     <section id="section-call-to-action" class="background-color-grey">
-      <div class="container-1200 display-flex flex-direction-column">
+      <div class="container-1200 display-flex flex-direction-column margin-auto">
         <div class="text-align-center padding-20">
           <h2 class="font-size-em-300">Tecnologia affidabile per tenersi in contatto</h2>
           <p class="font-size-em-125">Video e audio a bassa latenza ti faranno sentire come se tutti foste nella stessa
@@ -126,7 +130,7 @@
         </div>
 
         <img src="resources/img/item4-big.svg" alt="item4">
-        <div class="call-to-action container-800 display-inline-block padding-50 text-align-center">
+        <div class="call-to-action container-800 display-inline-block padding-50 text-align-center margin-auto">
           <h2 class="font-size-em-200">Pronto ad iniziare la tua avventura?</h2>
           <a class="button button-download display-inline-block background-color-contrast color-secondary font-size-em-125 "
             href="www.google.com"><i class="fa-solid fa-down-long"></i> Scarica per Mac</a>
@@ -139,7 +143,7 @@
 
 
   <footer class=" background-color-primary color-secondary ">
-    <div class="container-1200">
+    <div class="container-1200 margin-auto">
 
       <div class="footer-top display-flex flex-wrap justify-content-space-between ">
 
@@ -149,12 +153,13 @@
             <img src="resources/img/italy.png" alt="italy flag">Italiano <i
               class="fa-solid fa-angle-down padding-10"></i>
           </div>
-          <div class="contact-icons font-size-em-150 display-flex justify-content-space-between">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-youtube"></i>
-          </div>
+          <ul class="display-flex no-list-style flex-wrap">
+            <li><a href="www.googlr.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="www.googlr.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="www.googlr.com"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="www.googlr.com"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+
         </section>
 
         <div>
